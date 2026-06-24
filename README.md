@@ -1,4 +1,4 @@
-﻿<div align="center">
+﻿﻿<div align="center">
   <h1>🚀 PageForge</h1>
   <p><b>Plataforma de criação automatizada de sites com inteligência artificial</b></p>
   <p><i>Projeto desenvolvido para a agência <b>BoomBot</b> durante a Residência Tecnológica do <b>Programa Bolsa Futuro Digital</b>.</i></p>
@@ -50,12 +50,7 @@ Cada ambiente deve ser instalado e iniciado a partir de sua respectiva pasta. Se
 
 ### 💻 Dev-1: Frontend & Infraestrutura (Adrielly)
 
-Responsável por:
-- 💻 Código limpo e bem estruturado (Next.js/React)
-- 🗄️ Banco de dados e integração com backend
-- 🔌 APIs e integrações externas
-- 🚀 Deploy e infraestrutura
-- 👥 Interface do cliente e painel administrativo
+Responsável por Código limpo e bem estruturado (Next.js/React), Banco de dados e integração com backend, APIs e integrações externas, Deploy e infraestrutura, Interface do cliente e painel administrativo.
 
 ```bash
 # Navegue até o diretório
