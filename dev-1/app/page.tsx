@@ -8,6 +8,13 @@ export default function Home() {
           <span className="text-xl font-bold tracking-tight">
             Page<span className="text-violet-400">Forge</span>
           </span>
+          
+          {/* LINKS DE ACESSO PARA DEV */}
+          <div className="hidden md:flex items-center gap-6 text-sm text-white/60">
+            <a href="/dashboard" className="hover:text-violet-400 transition-colors">Painel Cliente</a>
+            <a href="/admin" className="hover:text-violet-400 transition-colors">Painel Admin</a>
+          </div>
+
           <div className="hidden md:flex items-center gap-8 text-sm text-white/60">
             <a href="#como-funciona" className="hover:text-white transition-colors">Como funciona</a>
             <a href="#planos" className="hover:text-white transition-colors">Planos</a>
@@ -87,7 +94,6 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-4">Escolha o seu plano</h2>
           <p className="text-white/40 text-center text-sm mb-16">Taxa única de criação + mensalidade para manter no ar</p>
           <div className="grid md:grid-cols-3 gap-6">
-
             <div className="relative p-7 rounded-2xl border border-white/10 bg-white/[0.03] flex flex-col">
               <h3 className="text-lg font-bold mb-1">Básico</h3>
               <p className="text-3xl font-black mb-1">R$ 497</p>
@@ -103,7 +109,6 @@ export default function Home() {
                 Escolher Básico
               </a>
             </div>
-
             <div className="relative p-7 rounded-2xl border border-violet-500 bg-violet-950/40 flex flex-col">
               <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-violet-600 text-white text-xs font-semibold px-4 py-1 rounded-full">
                 Mais popular
@@ -123,7 +128,6 @@ export default function Home() {
                 Escolher Profissional
               </a>
             </div>
-
             <div className="relative p-7 rounded-2xl border border-white/10 bg-white/[0.03] flex flex-col">
               <h3 className="text-lg font-bold mb-1">Premium</h3>
               <p className="text-3xl font-black mb-1">R$ 1.497</p>
@@ -140,7 +144,6 @@ export default function Home() {
                 Escolher Premium
               </a>
             </div>
-
           </div>
         </div>
       </section>
