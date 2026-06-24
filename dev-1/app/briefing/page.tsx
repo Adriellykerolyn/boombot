@@ -1,0 +1,1 @@
+﻿export default function Briefing() { return <div>Formulario de Briefing</div> }
