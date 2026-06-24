@@ -50,7 +50,12 @@ Cada ambiente deve ser instalado e iniciado a partir de sua respectiva pasta. Se
 
 ### 💻 Dev-1: Frontend & Infraestrutura (Adrielly)
 
-Responsável pela interface do cliente e painel administrativo.
+Responsável por:
+- 💻 Código limpo e bem estruturado (Next.js/React)
+- 🗄️ Banco de dados e integração com backend
+- 🔌 APIs e integrações externas
+- 🚀 Deploy e infraestrutura
+- 👥 Interface do cliente e painel administrativo
 
 ```bash
 # Navegue até o diretório
